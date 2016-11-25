@@ -1,0 +1,25 @@
+{
+  "name": "typescript-react-demo",
+  "version": "1.0.0",
+  "description": "this is typescript react demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsconfig": "tsc --init ./typings/index.d.ts ./src/index.tsx --jsx react --outDir ./dist --sourceMap --noImplicitAny"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "webpack"
+  ],
+  "author": "linxins",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "devDependencies": {
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^1.2.2"
+  }
+}
